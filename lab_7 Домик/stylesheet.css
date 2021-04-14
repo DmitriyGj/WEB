@@ -1,0 +1,45 @@
+div{
+    display: inline-block;
+    width:450px;
+}
+body{
+    text-align:center;
+}
+section{
+    clear: both;
+    text-align:center;
+}
+img{
+    float: right;
+}
+.bottom{
+    clear: both;
+}
+section:nth-child(odd){
+    clear: both;
+    margin-right: 51px;
+}
+section:nth-child(4){
+    clear: both;
+    margin-right: 51px;
+}
+footer {
+    color: gray;
+    font-size: 11px;
+}
+
+a {
+    color: red;
+}
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 10px;
+    display: inline-block;
+    text-align:justify;
+}
+a:active {
+    color: sandybrown;
+}

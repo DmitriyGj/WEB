@@ -1,0 +1,13 @@
+body{
+    background-image: url(images/fon.jpg);
+}
+.main{
+    width: 500px;
+    margin: 0 auto;
+}
+section, img{
+    float: left;
+}
+.bottom{
+    clear: both;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo"></div>
+        <h1>Zoo Keeper Application</h1>
+    </header>
+    <div class="main">
+        <div class="navigation">
+            <ul>
+                <li>Products</li>
+                <li>Products</li>
+                <li>Services</li>
+                <li>Feedback</li>
+            </ul>
+            <ul>
+                <li>Reports</li>
+                <li>Assigned Issues</li>
+                <li>Summary View</li>
+            </ul>
+            <ul>
+                <li>Info</li>
+                <li>Home</li>
+                <li>Articles</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+        <form action="">
+            <h5>Please complete the form.</h5>
+            <fieldset>
+                <legend>Contact Details</legend>
+                <div>
+                    <label>
+                        Name
+                        <input name="name" type="text" placeholder = "Иван Топорышкин" required pattern="^[А-Яа-яЁё\s]+$">
+                    </label>
+                    <label>
+                        Telephone                        
+                        <input type="tel" placeholder="89955566893" required pattern="[0-9]{6,11}">
+                    </label>
+                </div>
+                <div>
+                    <label>
+                            Email
+                            <input type="email" placeholder = "smbody@maul.ru" required>
+
+                            </label>
+                    <label>
+                            Web site                       
+                            <input type="web" placeholder="www.site.ru" required>
+                        </label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Person Details</legend>
+                <div>
+                    <label for="">BirthDay <input type="date" value="2000-11-11" required></label>
+                    <label for="">Gender 
+                        <select name="gender">
+                            <option value = "Male">Male</option>
+                            <option value = "Woman">Woman</option>
+                        </select>
+                    </label>
+                    <label for="">
+                        Registration date 
+                        <input type="date" value = "2016-06-02">
+                    </label>
+                </div>
+                <div>
+                    <p class="input">When did you first know you wanted to bee a zoo-keeper?</p>
+                    <textarea cols="30" rows="10" ></textarea>
+                </div>
+                <div>
+                    <label for="">Pick Your Favorite Animals
+                        <div class ="ww">
+                            <input type="checkbox" class="checkbox ">Dog
+                            <input type="checkbox" class ="checkbox ">Cat
+                            <input type="checkbox" class ="checkbox ">Turtle
+                            <input type="checkbox" class ="checkbox ">Fish
+                            <input type="checkbox" class ="checkbox ">Parrot
+                            <input type="checkbox" class ="checkbox ">Canary
+                        </div>
+                    </label>
+                    <label for="" class="checkbox colorBox"> Color of Pet<input type ="color"></label>
+                </div>
+            </fieldset>
+            <button type="submit" class="button ">Submit</button>
+            <button type="reset" class="button ">Reset</button>
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
