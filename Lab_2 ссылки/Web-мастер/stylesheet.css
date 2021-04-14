@@ -1,0 +1,119 @@
+.centredText {
+    text-align: center;
+}
+
+.p_home {
+    text-align: justify;
+}
+
+.body_home {
+    padding: 0% 10%;
+    background-color: rgb(238, 255, 255);
+}
+
+.ul_home {
+    list-style-type: square;
+}
+
+.ol_home {
+    list-style-type: I;
+}
+
+.blueText_home {
+    color: blue;
+}
+
+.list_home {
+    padding-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.redText_home {
+    color: red;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#cursive {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+.greenText_home {
+    color: green;
+}
+
+.leftAlignText {
+    text-align: left;
+}
+
+.body_grafika {
+    background-color: rgb(204, 255, 204);
+    padding: 0 10% 0 10%;
+}
+
+.h1_grafika {
+    color: rgb(0, 98, 99);
+    text-align: center;
+}
+
+.subtitle1_grafika {
+    color: rgb(75, 203, 92);
+}
+
+.subtitle2_grafika {
+    color: purple
+}
+
+.subtitle3_grafika {
+    color: rgb(135, 83, 21)
+}
+
+.ul_grafika {
+    list-style-type: circle;
+}
+
+.img_grafika {
+    height: 20%;
+    float: right;
+    margin: 0 5px 5px 5px;
+}
+
+.justifyText {
+    text-align: justify;
+}
+
+A {
+    color: #808080;
+}
+
+A:visited {
+    color: #800000;
+}
+
+.body_text {
+    background-color: rgb(255, 255, 204);
+    text-align: justify;
+    padding: 0 10% 0 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.h1_text {
+    color: rgb(185, 0, 0);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img_text {
+    width: 40%;
+    vertical-align: top;
+}
+
+.home {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
