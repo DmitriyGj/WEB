@@ -23,11 +23,11 @@ body {
     margin: 0px;
     position: fixed;
     text-align: center;
-    min-width: 1250px;
-    border: 1px solid black;
+    min-width: 2000px;
     height: 40px;
     padding: 14px 35px;
     z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .search_block {
@@ -40,6 +40,7 @@ body {
     float: left;
     height: 40px;
     width: 500px;
+    padding-left: 20px;
 }
 
 .search_block button {
@@ -135,7 +136,6 @@ h1 {
 }
 
 .product-page {
-    margin-top: 20px;
     padding: 15px;
     border: 1px solid gray;
     display: block;
@@ -165,19 +165,21 @@ h1 {
 }
 
 .product-page img {
+    text-align: center;
     display: block;
 }
 
 .offer {
-    display: block;
+    display: inline-block;
     background-color: greenyellow;
     color: green;
     float: left;
     clear: both;
     margin-top: -10px;
-    margin-left: 20px;
+    margin-left: 35px;
     text-align: center;
-    width: 150px;
+    width: 120px;
+    padding: 2px 2px;
 }
 
 .product-page div:last-child {
@@ -201,8 +203,21 @@ h1 {
     margin: 0px;
 }
 
-#name {
+.name {
     display: block;
     text-decoration: underline solid orange;
     margin-bottom: 5px;
+}
+
+.product-list {
+    margin-top: 20px;
+}
+
+#ei {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+#bold {
+    font-weight: bold;
 }
