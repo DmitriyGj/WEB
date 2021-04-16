@@ -144,15 +144,15 @@ h1 {
     margin-top: 30px;
 }
 
-table{
-    border-top:1px solid gray ;
+table {
+    border-top: 1px solid gray;
 }
 
-table p{
+table p {
     text-align: left;
 }
 
-td{
+td {
     padding: 0px;
     margin: 0px;
     width: 480px;
@@ -160,14 +160,14 @@ td{
     font-size: 14px;
 }
 
-th{
+th {
     padding: 20px 0px;
     text-align: left;
     font-size: 28px;
     font-weight: lighter
 }
 
-h2{
+table h2 {
     width: 500px;
 }
 
@@ -176,11 +176,11 @@ h2{
     font-weight: lighter;
 }
 
-#space{
+#space {
     text-decoration: underline solid gray;
     color: white;
 }
 
-#bold{
+#bold {
     font-weight: bold;
 }
