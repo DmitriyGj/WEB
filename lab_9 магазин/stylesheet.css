@@ -1,5 +1,5 @@
-* {
-    font-family: Open Sans;
+.product-page div a {
+    text-decoration: none;
 }
 
 button {
@@ -16,6 +16,11 @@ button p {
 
 body {
     margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;7..');
+body * {
+    font-family: 'Open Sans';
 }
 
 .header_menu {

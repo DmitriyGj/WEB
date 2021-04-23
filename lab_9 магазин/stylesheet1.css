@@ -1,5 +1,6 @@
-* {
-    font-style: Open Sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;7..');
+body * {
+    font-family: 'Open Sans';
 }
 
 ol {
@@ -13,7 +14,15 @@ ol li {
     display: inline-block;
     padding: 5px;
     color: rgb(13, 152, 216);
+}
+
+ol li a {
     text-decoration: underline;
+    color: blue;
+}
+
+#arrow {
+    color: blue;
 }
 
 ol li:last-child::after {
