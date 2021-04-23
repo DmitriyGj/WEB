@@ -1,5 +1,10 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap);
 .product-page div a {
     text-decoration: none;
+}
+
+h1 {
+    font-weight: lighter;
 }
 
 button {
@@ -16,10 +21,6 @@ button p {
 
 body {
     margin: 0px;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;7..');
-body * {
     font-family: 'Open Sans';
 }
 
@@ -50,6 +51,7 @@ body * {
 
 .search_block button {
     margin: 0px;
+    margin-left: 10px;
     display: inline-block;
     background-color: orange;
     float: left;
@@ -159,7 +161,7 @@ h1 {
     vertical-align: bottom;
     display: inline-block;
     margin: 0px;
-    width: 200px;
+    width: 190px;
     float: left;
 }
 
@@ -180,6 +182,7 @@ h1 {
     color: green;
     float: left;
     clear: both;
+    font-size: 9px;
     margin-top: -10px;
     margin-left: 35px;
     text-align: center;

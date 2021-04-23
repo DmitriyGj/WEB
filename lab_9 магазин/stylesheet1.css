@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;7..');
-body * {
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap);
+body {
     font-family: 'Open Sans';
 }
 
@@ -23,6 +23,7 @@ ol li a {
 
 #arrow {
     color: blue;
+    margin-left: 10px;
 }
 
 ol li:last-child::after {
@@ -151,6 +152,7 @@ form button {
 h1 {
     margin-bottom: 40px;
     margin-top: 30px;
+    font-family: 'Open Sans';
 }
 
 table {
