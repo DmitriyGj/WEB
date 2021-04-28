@@ -1,41 +1,114 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;7);
-body {
-    background: center /100% 200% url(bg-illu4.jpg) no-repeat;
-    background: cover;
-    font-family: 'Open Sans';
+
+.body{
+font-family: Verdana;
+}
+@media  (min-width:800px) {
+    .block {
+        display: inline-block;
+        text-align: center;
+        width: 150px;
+        height: 140px;
+        padding: 25px 25px;
+        font-size: 25px;
+        color: white;
+        vertical-align: bottom;
+    }
+    .main {
+        display: inline-block;
+        width: 600px;
+        vertical-align: middle;
+        font-size: 0px;
+    }
+    body {
+        background: center /100% 250% url(bg-illu4.jpg) no-repeat;
+        background: cover;
+        text-align: center;
+    }
+    .block p {
+        margin:10px;
+    }
+
+    .logo{
+        line-height:15px;
+        color:gray;
+        font-size: 18px;
+    }
+    #lower{
+        font-size: 14px;
+    }
+    
+    img{
+        padding:0px;
+        margin:0px;
+        height:70%;
+    }
 }
 
-.main {
-    display: inline-block;
-    width: 600px;
-    vertical-align: middle;
-    font-size: 0px;
+@media screen and (max-width:800px) {
+    .block {
+        display: block;
+        text-align: center;
+        width: 300px;
+        height: 50px;
+        font-size: 25px;
+        color: white;
+        margin:0px;
+        margin-top: 25px;
+        padding:0px;
+    }
+
+    .main {
+        display: inline-block;
+        width: 300px;
+    }
+    body {
+        background: center /100% 175% url(bg-illu1.jpg) no-repeat;
+        background: cover;
+        text-align: center;
+    }
+    .block p {
+        margin:10px;
+    }
+
+    .logo p{
+        display: none;
+    }
+    .logo{
+        display:block;
+        margin:0px;
+    }
+    img{
+        padding:0px;
+        margin:0px;
+        width:125px;
+        height:75px;
+    }
 }
 
-@media screen {}
 
-.block {
-    display: inline-block;
-    text-align: center;
-    width: 90px;
-    height: 200px;
-    padding: 15px 25px;
-    font-size: 25px;
-    color: white;
-}
-
-.block p {
-    margin: 0px;
-}
 
 .purple {
-    background-color: purple;
+    background-color: #880088;
+}
+
+.purple:hover{
+    background-color: #884488;
 }
 
 .blue {
-    background-color: blue;
+    background-color: #000088;
+}
+
+.blue:hover{
+    background-color: #444488;
 }
 
 .red {
-    background-color: red;
+    background-color: #880000;
 }
+
+.red:hover{
+    background-color: #884444;
+}
+
