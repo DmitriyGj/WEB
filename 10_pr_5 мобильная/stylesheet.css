@@ -1,9 +1,7 @@
-@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;7);
-
-.body{
-font-family: Verdana;
-}
-@media  (min-width:800px) {
+@media  (min-width:1100px) {
+    html{
+        height:100%
+    }
     .block {
         display: inline-block;
         text-align: center;
@@ -21,10 +19,11 @@ font-family: Verdana;
         font-size: 0px;
     }
     body {
-        background: center /100% 250% url(bg-illu4.jpg) no-repeat;
-        background: cover;
+        background: center /100% 100% url(bg-illu4.jpg) no-repeat;
         text-align: center;
+        font-family: Verdana, Geneva, sans-serif;
     }
+
     .block p {
         margin:10px;
     }
@@ -32,10 +31,10 @@ font-family: Verdana;
     .logo{
         line-height:15px;
         color:gray;
-        font-size: 18px;
+        font-size: 14px;
     }
     #lower{
-        font-size: 14px;
+        font-size: 10px;
     }
     
     img{
@@ -45,7 +44,7 @@ font-family: Verdana;
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1100px) {
     .block {
         display: block;
         text-align: center;
@@ -56,17 +55,20 @@ font-family: Verdana;
         margin:0px;
         margin-top: 25px;
         padding:0px;
+
     }
 
     .main {
         display: inline-block;
         width: 300px;
     }
+
     body {
-        background: center /100% 175% url(bg-illu1.jpg) no-repeat;
-        background: cover;
+        background: center /100% 100% url(bg-illu1.jpg) no-repeat;
         text-align: center;
+        font-family: Verdana, Geneva, sans-serif;
     }
+
     .block p {
         margin:10px;
     }
@@ -85,8 +87,6 @@ font-family: Verdana;
         height:75px;
     }
 }
-
-
 
 .purple {
     background-color: #880088;
