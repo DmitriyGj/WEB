@@ -1,0 +1,12 @@
+body{
+    width:100vw;
+    height:100vw;
+}
+
+footer{
+    background-color: gray;
+}
+
+.car_block{
+    background-image: url(images/1.jpg);
+}
