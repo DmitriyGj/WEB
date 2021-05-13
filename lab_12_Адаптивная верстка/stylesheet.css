@@ -1,12 +1,43 @@
-body{
-    width:100vw;
-    height:100vw;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-footer{
+body {
+    width: 100vw;
+    height: 100vw;
+}
+
+footer {
     background-color: gray;
 }
 
-.car_block{
-    background-image: url(images/1.jpg);
+.car_block img {
+    z-index: 1;
+    vertical-align: top;
+    display: inline;
+}
+
+.car_block {
+    background: url(images/1.jpg) 70% 70% no-repeat;
+    background-size: cover;
+    height: 33%;
+    width: 100%;
+    padding: 2% 3%;
+}
+
+.car_block ul {
+    display: inline-block;
+    z-index: 1;
+    color: white;
+    font-size: 15px;
+    list-style: none;
+    margin: 0px 5%;
+    width: 40%;
+    text-align: center;
+}
+
+.car_block ul li {
+    display: inline-block;
+    margin-left: 2%;
 }
