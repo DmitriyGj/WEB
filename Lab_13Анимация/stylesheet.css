@@ -1,0 +1,50 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    display: inline-block;
+    width: 900px;
+    height: 650px;
+    padding: 20px;
+}
+
+.text_block {
+    width: 900px;
+    position: absolute;
+    text-align: center;
+    z-index: 0;
+}
+
+.mirror {
+    position: relative;
+    z-index: 1;
+}
+
+body {
+    text-align: center;
+    background: center/100% 100% url(BG-ILLU2.JPG) no-repeat;
+    background-size: cover;
+    color: darkslategray;
+}
+
+.card {
+    display: inline-block;
+    width: 220px;
+    height: 320px;
+    margin: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    float: left;
+}
+
+.text_block .card {
+    opacity: 60%;
+}
+
+.text_block .card p {
+    line-height: 30px;
+    font-size: 20px;
+}
