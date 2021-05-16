@@ -31,9 +31,6 @@ html{
     text-align:center;
 }
 
-.mirror .card:hover{
-    opacity:0;
-}
 
 body {
     text-align: center;
@@ -53,7 +50,23 @@ body {
     float: left;
 }
 
+.rot:hover{
+    animation: rot 3s  linear;
+}
 
+.fade:hover{
+    animation: fade 3s  linear;
+}
+
+@keyframes rot {
+    from {transform:rotate(0deg)}
+    to{transform:rotate(360deg)}
+ }
+
+ @keyframes fade {
+    from {opacity:100%;}
+    to{opacity:0%;}
+ }
 
 .text_block .card {
     opacity: 60%;
