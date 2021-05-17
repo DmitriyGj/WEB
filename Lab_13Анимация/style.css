@@ -1,0 +1,127 @@
+body {
+    background-image: url(BG-ILLU2.JPG);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#upper {
+    z-index: 2;
+}
+
+.upper_block {
+    background-color: white;
+}
+
+.lvl {
+    width: 765px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+div {
+    padding-top: 15px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 28px;
+    width: 250px;
+    height: 300px;
+    float: left;
+    margin: 0 5px 5px 0;
+}
+
+img {
+    padding-bottom: 10px;
+}
+
+#lower {
+    z-index: 1;
+}
+
+.lower_block {
+    background: rgba(255, 255, 200, 0.7);
+    font-size: 20px;
+}
+
+#block_1 {
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+#block_1:hover {
+    opacity: 0%;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: all 0.9s ease;
+}
+
+#block_2 {
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+#block_2:hover {
+    opacity: 0%;
+    -webkit-transform: skewX(90deg);
+    -ms-transform: skewX(90deg);
+    transform: skewX(90deg);
+    transition: all 0.9s ease;
+}
+
+#block_3 {
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+#block_6:hover {
+    opacity: 0%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+    transition: all 1.5s ease;
+    height: 230px
+}
+
+#block_4 {
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+#block_4:hover {
+    opacity: 0%;
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transition: all 1.5s ease;
+}
+
+#block_5 {
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+#block_5:hover {
+    opacity: 0%;
+}
+
+#block_6 {
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+#block_3:hover {
+    opacity: 0%;
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+    transition: all 0.9s ease;
+}
