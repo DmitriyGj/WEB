@@ -1,47 +1,115 @@
 * {
     font-style: sans-serif Arial;
-    font-size: 35px;
+    font-size: 18px;
+    padding:0px;
+    margin: 0px;
+}
+.map {
+ width:1270px;  
+ position:absolute;
+ height:625px;
+ padding:0px;
+ margin: 0px;
 }
 
-html {
-    width: 100%;
-    height: 100%;
-}
-
-body {
-    background: center/120% 110% url(map_of_kyrandia.jpg) no-repeat;
-}
-
-.podskazka {
-    padding: 25px 0px;
-    color: red;
+.content{
     position: absolute;
+    left: 70%;
+    top: 90%;
+    display:none;
     z-index: 1;
-    width: 250px;
-    height: 150px;
-    text-align: left;
-    opacity: 0%;
 }
 
-.podskazka p {
-    opacity: 100%;
-    background-color: rosybrown;
-    padding: 2px;
-    margin: 0;
-}
-
-.podskazka img {
-    margin: 0;
-    float: right;
-    width: 90%;
-}
-
-.podskazka:hover {
-    opacity: 100%;
-}
-
-.temple {
+.main { 
     position: absolute;
-    left: 200px;
-    top: 90px;
+    background: sandybrown;
+    color:red;
 }
+
+.main img{
+    border-radius: 15px;
+    margin: 0px;
+    width: 220px;
+    height:140px;
+
+}
+
+.temple_main{
+    width:80px;
+    left: 210px; 
+    top: 100px;
+}
+
+.dark_woods_main{
+    left: 205px;
+    top:220px;
+    width: 130px;
+    word-spacing: 20px;
+}
+
+.altar_main{
+    width: 50px;
+    left:170px;
+    top:280px
+    
+}
+
+.deadwood_main{
+    width: 100px;
+    left:250px;
+    top:350px
+}
+
+.timbermist_main{
+    text-align: center;
+    width:100px;
+    left:370px;
+    top: 280px
+}
+
+.serpent_main{
+    text-align: center;
+    width:100px;
+    left:530px;
+    top:250px;
+}
+.misty_main{
+    text-align: center;
+    width:70px;
+    left:705px;
+    top:265px;
+}
+
+.hot_main{
+    text-align: center;
+    width:100px;
+    left:745px;
+    top:365px;
+}
+
+.dark_swamp_main{
+    text-align: center;
+    width:120px;
+    left:845px;
+    top:290px;
+}
+
+.beachline_main{
+    text-align: center;
+    width:105px;
+    left:810px;
+    top:185px;
+}
+
+.morningmist_main{
+    text-align: center;
+    width:125px;
+    left:920px;
+    top:435px;
+}
+
+.main:hover  .content {display:block; }
+.main:hover{color:white;
+}
+
+
