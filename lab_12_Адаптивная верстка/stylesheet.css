@@ -1,10 +1,10 @@
 @font-face {
-    font-family:"TrebuchetBold" ;
+    font-family: "TrebuchetBold";
     src: url(fonts/Trebuchet-MS-Bold.ttf);
 }
 
 @font-face {
-    font-family:"TrebuchetReg";
+    font-family: "TrebuchetReg";
     src: url(fonts/Trebuchet-MS-Regular.ttf);
 }
 
@@ -12,7 +12,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family:"TrebuchetReg";
+    font-family: "TrebuchetReg";
 }
 
 body {
@@ -31,7 +31,6 @@ footer {
     width: 19%;
 }
 
-
 .car_block {
     background: url(images/1.jpg) 70% 70% no-repeat;
     background-size: cover;
@@ -39,26 +38,26 @@ footer {
     width: 100%;
     position: relative;
     z-index: 0;
-    padding-top:20px
+    padding-top: 20px
 }
 
 .car_block ul {
-    vertical-align:middle;
+    vertical-align: middle;
     display: inline-block;
     z-index: 1;
     color: white;
     font-size: 14px;
     list-style: none;
-    width:60%;
+    width: 60%;
     text-align: center;
 }
 
 .car_block ul li {
     display: inline-block;
-    margin-left:5%;
+    margin-left: 5%;
 }
 
-.car_block div{
+.car_block div {
     position: relative;
     z-index: 1;
     display: block;
@@ -75,48 +74,54 @@ footer {
     top: 0;
     left: 0;
     background: transparent;
-    background-image:  linear-gradient(360deg, rgba(16,121,179,0.7346288857339811) 43%, rgba(50,254,255,1) 100%);
+    background-image: linear-gradient(360deg, rgba(16, 121, 179, 0.7346288857339811) 43%, rgba(50, 254, 255, 1) 100%);
     opacity: 0.8;
     z-index: 0;
 }
 
-.text_row{
-    margin-top:150px;
+.text_row {
+    margin-top: 150px;
     font-weight: 100;
 }
-.text_row h3{
+
+.text_row h3 {
     margin-top: 25px;
 }
 
-.container{
-    margin-right: auto; /* 1 */
-    margin-left: auto; /* 1 */
-
-    max-width: 75%; /* 2 */
-
-    padding-right: 10px; /* 3 */
-    padding-left: 10px; /* 3 */
+.container {
+    margin-right: auto;
+    /* 1 */
+    margin-left: auto;
+    /* 1 */
+    max-width: 75%;
+    /* 2 */
+    padding-right: 10px;
+    /* 3 */
+    padding-left: 10px;
+    /* 3 */
 }
-.aut{
+
+.aut {
     height: 30px;
 }
+
 .select {
     position: relative;
-    margin-top:100px;
+    margin-top: 100px;
 }
 
-.select::before{
+.select::before {
     content: "Оформить тендер";
     position: absolute;
     left: 330px;
     top: 55px;
-    font-size:15px;
+    font-size: 15px;
 }
 
-.select::after{
+.select::after {
     content: "Смотреть тендеры";
     position: absolute;
-    font-size:15px;
+    font-size: 15px;
     right: 330px;
     top: 55px;
     text-decoration: underline;
