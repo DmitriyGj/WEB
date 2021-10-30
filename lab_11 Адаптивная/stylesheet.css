@@ -12,7 +12,6 @@
     padding:2%;
 }
 
-
 @media screen and (min-width:1100px) {
     *{
         font-size: 1vw
@@ -96,12 +95,13 @@
         margin-left:21%;    
         display:inline-block;   
         width: 79%;
+        margin-right: 0px;
     }
     
     .divider
     {
         width: 100%;
-        margin-left:-1%;
+        margin-left:0%;
     }
     
     .text_block h2,h3{
@@ -179,16 +179,18 @@
     
     .wrapper
     {
-        margin: auto 5%;
-        display:inline-block;   
+        display:inline-block;
         width: 94%;
+        margin-left: 6%;
     }
     
     .text_block
     {
         margin:1% 2%;
     }
-    
+    .divider{
+        width: 100% ;
+    }
     
     .text_block h2,h3{
         font-weight:lighter;
@@ -216,7 +218,7 @@
         width: 25px;
         height: 30px;
         max-width: 25px;
-        background-position: no-repeat;
+        background-position:center no-repeat;
         display:inline-block;
     }
 }
