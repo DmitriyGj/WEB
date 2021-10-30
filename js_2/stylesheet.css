@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(255,215,0);
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    color:purple;
+    margin-bottom: 4%;
+}
+
+form{
+    margin: auto;
+    width: 600px;
+}
+.fieldset_block{
+    text-align: left;
+    font-weight: bold;
+    display: inline-flex;
+    flex-direction: column;
+    width: 220px;
+}
+
+fieldset{
+    padding: 10px;
+}
+
+.fieldset_block p{
+    padding: 2%;
+}
+
+.fieldset_block input{
+    margin: 2%;
+    width: 80%;
+}
+
+.fieldset_block input:last-child{
+    width: 40%;
+    margin: 2%;
+}
+

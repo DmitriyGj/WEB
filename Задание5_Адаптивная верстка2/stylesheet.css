@@ -1,0 +1,366 @@
+@font-face {
+    font-family: "Trebuchet MS"; /* Имя шрифта */
+    src: url(fonts/Trebuchet-MS-Regular.ttf); /* Путь к файлу со шрифтом */
+    src: url(fonts/Trebuchet-MS-Bold.ttf);
+}
+
+body{
+    font-family: "Trebuchet MS";
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to top, rgba(59, 169, 182, 0.75), rgba(59, 169, 182, 0.75)),
+    url("images/1.jpg");
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    text-align: center;
+}
+.menu li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.white_text {
+    color: white;
+}
+
+.content_row {
+    display: inline-block;
+    height: 30%;
+    _vertical-align: top;
+}
+
+.category_card:nth-child(2) {
+    background-image: url("images/trend1.jpg");
+}
+
+.category_card:nth-child(3) {
+    background-image: url("images/trend2.jpg");
+}
+
+.category_card:nth-child(4) {
+    background-image: url("images/trend3.jpg");
+}
+
+.category_block {
+    background-color: #40c2d8;
+    padding: 4% 2%;
+    text-align: center;
+    text-align: center;
+    box-shadow: 0 0 10px 5px black inset;
+}
+
+.category_block h1:first-child {
+    padding: 0px;
+    margin-bottom: 2%;
+}
+
+.category_card {
+    width: 15%;
+    border: 2px solid black;
+    text-align: center;
+    background: no-repeat center center;
+    background-size: cover;
+    margin: 2%;
+    height: 40%;
+    padding: 2%;
+    text-align: center;
+}
+
+.card_header {
+    font-size:16pt;
+    width: 80%;
+    padding: 5% 10%;
+    display: inline-block;
+    border: 4px solid greenyellow;
+}
+
+.card_body {
+    width: 60%;
+    text-align: left;
+    margin-top: 80%;
+}
+.card_body h1{
+color: greenyellow;
+}
+
+.card_footer {
+    border: 3px solid white;
+    width: 80%;
+    text-align: center;
+    padding: 3% 10%;
+    margin-top: 10%;
+}
+
+.feedback_block {
+    width: 70%;
+    height: 10%;
+    padding: 3% 15%;
+}
+
+form fieldset button {
+    background-color: greenyellow;
+    padding: 0.5%;
+}
+
+form fieldset {
+    padding: 2%;
+    border: 0px;
+}
+
+form fieldset input {
+    width: 20%;
+    height: 30%;
+}
+
+footer {
+    background-color: #444444;
+    height: 5%;
+    padding: 1% 5%;
+    text-align: center;
+}
+
+@media screen and (min-width:1600px) {
+    header {
+        width: 100%;
+        height: 50%;
+    }
+    .content_row{
+        width: 100%;
+    }
+    .category_card{
+        display: inline-block;
+
+    }
+    .canvas {
+        _vertical-align: top;
+        width: 100%;
+        height: 100%;
+    }
+
+    .content_row * {
+        text-align: center;
+        vertical-align: top;
+        margin: 2% 5%;
+        padding: 0px;
+    }
+
+    .trigo {
+        margin-bottom: -2%;
+    }
+
+    .inline {
+        display: inline-block;
+    }
+
+    .centred {
+        width: 50%;
+        text-align: center;
+    }
+
+    .centred h3 {
+        padding: 1% 12%;
+    }
+
+    .choose {
+        width: 30%;
+        height: 100%;
+        background: no-repeat;
+        background-image: url("images/select-bg.png");
+    }
+
+    .choose a {
+        margin-top: 10%;
+        margin-right: 15%;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    .text_containter {
+        width: 84%;
+        display: inline-block;
+        text-align: center;
+        padding: 2% 8%;
+        float: left;
+    }
+
+    .text_box {
+        width: 20%;
+        text-align: left;
+        vertical-align: top;
+
+    }
+
+    .text_box p {
+        color: gray;
+        margin-top: 5%;
+        padding-right: 20%;
+    }
+
+    .line {
+        margin: 0px 2%;
+    }
+
+    .footer_content {
+        text-align: center;
+        float: left;
+    }
+
+    .footer_content * {
+        display: inline-block;
+        vertical-align: top;
+        text-align: right;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:1640px) {
+    * {
+        font-size: 18px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    header {
+        height: 50%;
+    }
+
+    header img:nth-child(3) {
+        display: none;
+    }
+    header h1{
+        font-size: 20pt;
+    }
+
+    header * {
+        padding: 2%;
+        text-align: center;
+    }
+
+    .canvas {
+        display: inline-block;
+    }
+
+    .content_row {
+        display: block;
+    }
+
+    .text_box {
+        height: 30%;
+        text-align: center;
+        float: top;
+    }
+
+    .text_box h1 {
+        font-size: 25pt;
+    }
+
+    .text_containter {
+        width: 40%;
+        display: inline-block;
+    }
+
+    .text_containter img {
+        display: none;
+    }
+
+    .choose {
+        display: none;
+    }
+
+    .text_box p {
+        color: gray;
+    }
+
+    .trigo {
+        display: block;
+        align-self: center;
+        margin-bottom: -1.5%;
+        margin-left: 49%;
+    }
+
+    .category_card:nth-child(2) {
+        display:inline-block ;
+    }
+
+    .category_card:nth-child(3) {
+        display: inline-block;
+    }
+
+    .category_card:nth-child(4) {
+        width: 40%;
+        display: block;
+        margin-left: 28%;
+    }
+
+    .category_card:nth-child(4) .card_footer {
+        width: 40%;
+        padding: 0.75%;
+        margin-top: 2%;
+    }
+
+    .category_card:nth-child(4) .card_body{
+        margin-top: 40%;
+    }
+
+    .category_card:nth-child(4) h1 {
+        width: 40%;
+    }
+
+    .category_card p{
+        font-size: 11pt;
+    }
+    .card_body{
+        width: 25%;
+        margin-top: 80%;
+    }
+
+    .card_footer h1{
+        padding: 0.5%;
+        font-size: 16pt;
+    }
+
+    .category_card{
+        height: 40%;
+    }
+
+    footer{
+        text-align: center;
+        padding: 2%;
+        height: 20%;
+    }
+    .footer_content *{
+        display: inline-block;
+        float:bottom;
+        padding: 1%;
+    }
+
+    .footer_content{
+        display: inline-block;
+        width: 70%;
+    }
+
+    .feedback_block{
+        height: 15%;
+        width:40%;
+        display: inline-block;
+    }
+
+    .feedback_block input{
+        display: block;
+        margin-bottom: 2%;
+        width:100%;
+    }
+}

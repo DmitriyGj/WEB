@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Документ HTML</title>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href="stylesheet.css">
+    <script src="script.js">
+    </script>
+</head>
+<body >
+<form name="anketa">
+    <h1>Анкета</h1>
+    <label>Электронный адрес</label>
+    <input type=email name="email_field">
+    <label>Тема сообщения</label>
+    <input type="text" name="topic_field">
+    <label>Текст сообщения</label>
+    <textarea type=text name="message_field"></textarea>
+    <label>Подтвердить о получении</label>
+    <input type=checkbox name="confirm_flag">
+    <input type=button onclick="vyvod()" value="Обработка формы" name = 'send'>
+</form>
+</body>

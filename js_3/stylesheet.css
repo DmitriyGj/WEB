@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: whitesmoke;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid darkgray;
+}
+
+form{
+    width:400px;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+    margin: 10px;
+}
+
+label{
+    padding: 10px;
+}
+
+.halfer{
+    width: 40%;
+    margin: 0px 20px;
+}
+
+legend{
+    margin-left :10px;
+}
+
+#btn{
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 5px;
+    width: 60%;
+
+}
+.compunder{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.half{
+    width: 49%;
+    padding: 0px 10px;
+}
+
+textarea{
+    width:90%;
+    margin-left: 20px;
+    resize:none;
+    height: 60px;
+    background-color: white;
+}
+
+#amount_in{
+    background-color: white;
+    margin-left: 10px;
+    width: 40%;
+}

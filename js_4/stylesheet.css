@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(240,240,240);
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#orderBtn{
+    width:120px;
+    margin: auto;
+    padding: 2px;
+}
+
+h2{
+    text-align: center;
+    padding: 1%;
+}
+ input{
+     margin-right: 10px;
+ }
+
+.menu{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+textarea{
+    margin-left: 15px;
+    resize: none;
+}
+
+
+.menu img{
+    height: 170px;
+    width: 200x;
+}
+
+.check_block{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 20px;
+    text-align: left;
+}
+
+.check_block label input{
+    margin: auto 5px;
+}
+
+.check_block label{
+    margin-bottom: 5%;
+    display: inline-flex;
+}
+
+#cost{
+    padding: 1%;
+    display: inline-flex;
+    align-self: center;
+    margin-bottom: 10px;
+}

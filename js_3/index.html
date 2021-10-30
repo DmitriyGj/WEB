@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Калькулятор</title>
+    <link rel = stylesheet href="stylesheet.css">
+    <meta charset="utf-8">
+</head>
+<body>
+<form>
+    <h2>Печать фотографий</h2>
+    <div class ="compunder">
+        <div class = "halfer">
+            <fieldset>
+                <legend>Формат</legend>
+                <label><input name="size" type="radio">9x12</label>
+                <label><input name="size" type="radio">10x15</label>
+                <label><input name="size" type="radio">18x24</label>
+            </fieldset>
+        </div>
+        <div class ="halfer">
+            <fieldset>
+                <legend>Бумага</legend>
+                <label><input name="letter_type" type="radio">Матовая</label>
+                <label><input name="letter_type" type="radio">Глянцевая</label>
+            </fieldset>
+            <label><input id="btn" type="button" value ="Вычислить"></label>
+        </div>
+    </div>
+    <div class="compunder half">
+    <label >Количество<input id="amount_in" type = "text"></label>
+    </div>
+    <textarea id="#result" class="compunder"></textarea>
+</form>
+<script src = script.js></script>
+</body>
+</html>

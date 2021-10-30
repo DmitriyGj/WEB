@@ -1,0 +1,14 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.result{
+    display: block;
+}
+#mt{color:red; font-weight: bold;}
+#email{color:blue;  font-style: italic}

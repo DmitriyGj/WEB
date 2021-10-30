@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Калькулятор</title>
+        <link rel = stylesheet href="stylesheet.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form>
+            <h1>Поездка на дачу</h1>
+            <fieldset>
+                <div class="fieldset_block">
+                    <p>Расстояние (км):</p>
+                    <p>Цена бензина (руб/литр):</p>
+                    <p>Потребление (на 100 км.):</p>
+                    <p>Стоимость</p>
+                </div>
+                <div class ="fieldset_block">
+                    <input onkeyup="btn_check()" class="field" type="number " name ="distance">
+                    <input onkeyup="btn_check()" class="field" type="text" name = "costOfOil">
+                    <input onkeyup="btn_check()" class="field" type="text" name = "consumption" >
+                    <input type="text" id="result" name="cost" disabled>
+                    <input type="button" id="btn" name = "result" value="Вычислить !">
+                </div>
+            </fieldset>
+        </form>
+        <script src = script.js></script>
+    </body>
+</html>
