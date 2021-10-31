@@ -18,6 +18,39 @@ fieldset{
     border: 0px;
 }
 
-fieldset select{
-    text-align: right;
+fieldset:last-child{
+    justify-content: center;
+}
+
+input{
+    margin-left: 42%;
+    width: 30%;
+    display: inline-flex;
+}
+
+label{
+    width: 50px;
+    display: inline-flex;
+    text-align: left;
+}
+
+textarea{
+    display: inline-flex;
+    height: 40px;
+    margin-left: 60px;
+    width: 80%;
+}
+
+button{
+    margin: auto 20px;
+    padding: 4px;
+}
+
+div{
+    width: 49%;
+    text-align: left;
+}
+
+div:nth-child(2){
+    margin-left: 50px;
 }
