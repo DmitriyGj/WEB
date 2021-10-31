@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(102,205,170);
+    justify-content: center;
+    display: flex;
+}
+
+form{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+fieldset{
+    display: inline-flex;
+    flex-direction: row;
+    border: 0px;
+}
