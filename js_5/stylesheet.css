@@ -9,7 +9,7 @@ form{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 40%;
+    width: 600px;
 }
 
 fieldset{
@@ -24,7 +24,7 @@ fieldset:last-child{
 
 input{
     margin-left: 42%;
-    width: 30%;
+    width: 85px;
     display: inline-flex;
 }
 
@@ -37,8 +37,8 @@ label{
 textarea{
     display: inline-flex;
     height: 40px;
-    margin-left: 60px;
-    width: 80%;
+    margin-left: 40px;
+    width: 85%;
 }
 
 button{
@@ -47,7 +47,7 @@ button{
 }
 
 div{
-    width: 49%;
+    width: 265px;
     text-align: left;
 }
 
