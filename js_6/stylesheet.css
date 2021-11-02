@@ -1,0 +1,73 @@
+body{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+}
+.form_body fieldset{
+    width: 300px;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+form{
+    width: 600px;
+}
+
+.form_body fieldset input[type="text"]{
+    width:40px;
+    height: 15px;
+}
+
+.form_body fieldset label{
+    margin: 3px;
+    width:200px;
+}
+
+.form_body{
+    display: flex;
+    height: 160px;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    margin: 2px 0px;
+    width: 100%;
+}
+
+.form_header{
+    display: flex;
+    justify-content: end;
+}
+
+.form_header input{
+    width: 50px;
+}
+
+.form_header *{
+    margin-left: 12px;
+}
+.form_header{
+    padding: 10px 0px;
+}
+
+.row_mass{
+    margin-bottom: 10px;
+}
+
+.row_mass input{
+    width: 590px;
+}
+
+.form_footer{
+    flex-direction: column;
+    display: flex;
+    padding: 10px 0px;
+}
+
+.form_footer button{
+    width: 100px;
+    margin: auto;
+}

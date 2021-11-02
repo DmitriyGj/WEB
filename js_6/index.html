@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Массивы</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <form action="">
+            <div class="form_header">
+                <label for="">Число элементов массива<input id="mass_length" type="text"></label>
+                <button id="create_massive_btn">Создать массив</button>
+            </div>
+            <label class="row_mass" for="">Исходный массив<input id="in_box_mass" type="text"></label>
+            <div class="form_body">
+                <fieldset>
+                    <legend>Опеределить</legend>
+                    <div class="row">
+                        <input id="need_minValue" type="checkbox">
+                        <label for="need_minValue">Минимальный элемент </label>
+                        <input id="minValue" type="text">
+                    </div>
+                    <div class="row">
+                        <input id="need_maxValue" type="checkbox">
+                        <label for="need_maxValue">Максимальный элемент </label>
+                        <input id="maxValue" type="text">
+                    </div>
+                    <div class="row">
+                        <input id="need_sum" type="checkbox">
+                        <label for="need_sum">Сумма элементов</label>
+                        <input id="sum" type="text">
+                    </div>
+                    <div class="row">
+                        <input id="need_amount_of_negative" type="checkbox">
+                        <label for="need_amount_of_negative">Число отрицательных</label>
+                        <input id="amount_of_negative" type="text">
+                    </div>
+                    <div class="row">
+                        <input id="need_not_negative" type="checkbox">
+                        <label for="need_not_negative">Число не отрицательных</label>
+                        <input id="amount_of_not_negative" type="text">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Сортировать</legend>
+                    <label for=""><input type="radio" name="sorting" value = "1">По возрастанию</label>
+                    <label for=""><input type="radio" name="sorting" value ="-1">По убыванию</label>
+                    <label for=""><input type="radio" name="sorting" value = "0">Без сортировки</label>
+                </fieldset>
+            </div>
+            <div class="form_footer">
+                <label class="row_mass" for="">Отсортированный массив<input type="text"></label>
+                <button>Вычислить</button>
+            </div>
+        </form>
+         
+
+        <script src="script.js" ></script>
+    </body>
+</html>
