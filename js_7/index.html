@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <form action="">
+            <h1>Работа с датами</h1>
+            <div class="body">
+                <div class="half left">
+                    <fieldset>
+                        <legend>Опеределить</legend>
+                        <div class="row">
+                            <input id="day_amount" name="day_work" type="radio">
+                            <label for="day_amount">Количество дней</label>
+                        </div>
+                        <div class="row">
+                            <input id="weekends_amount" name="day_work" type="radio">
+                            <label for="weekends_amount"> Количество выходных</label>
+                        </div >
+                        <div class="row">
+                            <input id="job_amount" name="day_work" type="radio">
+                            <label for="job_amount">Количество рабочих дней</label>
+                        </div>
+                        <div class="row">
+                            <input id="full_amount" name="day_work" type="radio">
+                            <label for="full_amount">Количество полных недель</label>
+                        </div>
+                        <div class="row">
+                            <input id="fullm_amount" name="day_work" type="radio">
+                            <label for="fullm_amount">Количество полных месяцев</label>
+                        </div>
+                    </fieldset>
+                    <label for="">Результат <input id="result" type="text"></label>
+                    <button id="calc_btn">Вычислить</button>
+                </div>
+                <div class="half">
+                    <div class="row">
+                        <p>Начало периода</p>
+                        <input type="text">
+                    </div>
+                    <div class="row">
+                        <p>Конец периода</p>
+                        <input  type="date">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <script src="" async defer></script>
+    </body>
+</html>
