@@ -1,0 +1,49 @@
+.body{
+    display: flex;
+}
+
+.half{
+    display: inline-flex;
+    flex-direction: column;
+    width: 49%;
+    padding: 0px;
+    margin: 0px 20px;
+    text-align: left;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+
+.row{
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.row p{
+    margin-bottom: 10px;
+}
+fieldset {
+    margin-bottom: 10px;
+}
+
+fieldset input{
+    margin:0px;
+}
+
+.left input{
+    margin-bottom: 10px;
+}
+
+#result{
+    width: 50px;
+    margin-left: 20px;
+}
+
+#calc_btn{
+    
+}
