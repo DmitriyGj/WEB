@@ -1,4 +1,5 @@
 const operations = [calcDays,calcWeekends, calcWorkDays, calcFullWeeks,calcFullMonths];
+const amountOfDays = [31,[28,29],31,30,31,30,31,31,30,31,30,31]
 const regexs =[
     new RegExp("^([0-3]*[0-9])\.([0-1]*[0-9])\.([0-9][0-9]{1,3})$"),
     new RegExp("^([0-3]*[0-9])\/([0-1]*[0-9])\/([0-9][0-9]{1,3})$"),
@@ -19,9 +20,25 @@ $("calc_btn").addEventListener("click",(event)=>{
     $("result").value = operations[radios.findIndex(radio=>radio.checked)](startDate,end_date)
 })
 
+
 function parseDate(stringDate,regExp){
     let parsedDate = stringDate.split(regExp);
     [day,month,year] = [parseInt(parsedDate[1]),parseInt(parsedDate[2])-1,parseInt(parsedDate[3])];
+    if((month < 0 || month > 12)){
+        alert("Дата введена неверно")
+        return;
+    }
+    let maxDays = 31;
+    if(month === 1){
+        maxDays = amountOfDays[month][(year % 4 === 0 || year % 400 ===0) && year % 100  !== 0 ? 1:0];
+    }
+    else{
+        maxDays = amountOfDays[month];
+    }
+    if(day> maxDays){
+        alert("Дата введена неверно")
+        return;
+    }
     return new Date(year,month,day);
 }
 
