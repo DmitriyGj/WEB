@@ -21,27 +21,32 @@
             </div>
             <div>
                 <label for="">Пароль </label>
-                <input type="text">
+                <input id="password_field" type="text">
             </div>
             <div>
                 <label for="">Подтвердите пароль </label>
-                <input type="text">
+                <input id="password_field_apply" type="text">
             </div>
             <div>
                 <label for="">Дата рождения </label> 
-                <input type="date">
+                <input type="text">
             </div>
             <div>
                 <label for="">Пол: </label>
-                <input name="sex" type="radio">М <input name="sex" type="radio">Ж
+                <label for="man"><input id="man" name="sex" type="radio">М
+                <label for="woman"><input id="woman" name="sex" type="radio">Ж</label>
+            </div>
+            <div>
+                <label for="">Телефон</label>
+                <input type="text">
             </div>
             <div>
                 <label for="">ИНН :</label>
                 <input type="text">
             </div>
-            <button>Подтвердить</button>
+            <button id='apply'>Подтвердить</button>
+            <button>Очистить</button>
         </form>
-        
         <script src="script.js" async defer></script>
     </body>
 </html>

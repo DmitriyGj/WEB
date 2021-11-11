@@ -89,7 +89,7 @@ function calcWorkDays(date1,date2){
         }
         curDay++;
     }
-    return weekends;
+    return workdays;
 }
 
 function calcFullWeeks(date1, date2){
