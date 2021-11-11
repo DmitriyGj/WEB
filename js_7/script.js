@@ -82,10 +82,14 @@ function calcWeekends(date1,date2){
 function calcWorkDays(date1,date2){
     let daysRange = calcDays(date1,date2);
     let curDay = date1.getDay();
-    let wrokdays = 0;
+    let workdays = 0;
     for(let i =0; i != daysRange;i++){
-        if(curDay !== 6 && curDay !== 0) {
-            wrokdays++;
+        if(curDay !== 6 && curDay !== 0) 
+            workdays++;
+        else if(curDay == 6)
+        {
+            curDay =0
+            continue
         }
         curDay++;
     }
