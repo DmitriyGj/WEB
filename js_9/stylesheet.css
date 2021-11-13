@@ -9,7 +9,8 @@ button{
 }
 
 input{
-    margin: auto;
+    margin: 20px auto;
+    width: 200px;
 }
 
 
@@ -29,6 +30,6 @@ form{
 
 .controller{
     display: flex;
-    margin: auto;
+    margin: 10px auto;
     width: 400px;
 }
