@@ -54,3 +54,7 @@ fieldset input{
     width: 40%;
     margin: auto;
 }
+
+.right input{
+    width: 60%;
+}

@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button{
+    margin: auto;
+}
+
+input{
+    margin: 20px auto;
+    width: 200px;
+}
+
+
+.auto{
+    width: 500px;
+    height: 177px;
+    background-image: url("1549-large.jpg");
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+form{
+    margin: auto;
+    display: flex;
+    width: 1000px;
+}
+
+.controller{
+    display: flex;
+    margin: 10px auto;
+    width: 400px;
+}

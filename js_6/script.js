@@ -23,8 +23,7 @@ mass_length.addEventListener("keyup",event=>{
 create_btn.addEventListener("click",(event)=>{
     event.preventDefault();
     in_massive_box.value="";
-    mass_length = parseInt(mass_length.value);
-    in_array = generateMass(mass_length);
+    in_array = generateMass(parseInt(mass_length.value));
     in_massive_box.value = in_array.join(", ");
 });
 
