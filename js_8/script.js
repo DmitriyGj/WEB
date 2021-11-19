@@ -73,7 +73,7 @@ function validateInn(InnString){
         if(InnString.Length == 10)
             return teninnlen(InnString)
          else 
-            return tewelveinnlen(InnString)
+            return twelveinnlen(InnString)
     }
     else{
         return false;
@@ -89,7 +89,7 @@ function elevenInnLen(InnString){
     return sum%11 === parseInt(InnString[10])
 }
 
-function tewelveinnlen(InnString){
+function twelveinnlen(InnString){
     const coefs = [3,7,2,4,10,3,5,9,4,6,8];
     sum = 0;
     for(let i = 0; i != 11; i++){

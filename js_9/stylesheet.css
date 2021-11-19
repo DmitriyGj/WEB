@@ -9,8 +9,7 @@ button{
 }
 
 input{
-    margin: 20px auto;
-    width: 200px;
+    margin: auto;
 }
 
 
@@ -20,6 +19,7 @@ input{
     background-image: url("1549-large.jpg");
     background-repeat: no-repeat;
     margin: auto;
+    background-position-y: -180px;
 }
 
 form{
@@ -30,6 +30,6 @@ form{
 
 .controller{
     display: flex;
-    margin: 10px auto;
+    margin: auto;
     width: 400px;
 }
