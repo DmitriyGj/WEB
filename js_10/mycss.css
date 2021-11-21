@@ -1,16 +1,20 @@
 body {
-    background: url(Images/fon_03.gif) repeat;
-   }
+    padding:0.2%;
+    background-color: rgb(205,255,255);
+}
+
+.bald{
+    font-weight: bold;
+}
 
 h1 {
-    font-family: Georgia  ;
-    color: #0c1163;
-    font-size: 30pt;
+    color: black;
+    font-size: 20pt;
     margin-bottom: 0px;
    }
 
 p {
-    font-size:36px;
+    font-size: 15pt;
     color: #000000;  
     margin-top: 0;
     padding-right: 25px;
@@ -22,20 +26,129 @@ p {
 
 #pic {
     margin-top: 5px;
-    margin-right: 10px;
+    margin-right: 3%;
     margin-left: 0px;
     margin-bottom: 10px;
-    float: left;
-    width: 40%;
-   }
-
-
-#content {
-	width: 100%;
-	margin: 20px;
-    padding: 0px 10px;
+    float: right;
+    max-width: 400px;
+    width: 30%;
 }
 
-#settings_container{
 
+#settings_container{
+    flex-direction: column;
+    display: flex;
+    width: 40%;
+    max-width: 300px;
+    float: left;
+    border: 4px solid red;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(204,204,204);
+    padding: 1%;
+}
+
+#settings_container p{
+    font-size: 12pt;
+}
+
+#setings_container img:hover{
+    border: 2px solid blue;
+}
+
+.subsettings_container{
+    padding: 1%;
+    width:99%;
+    height: 10%;
+}
+
+.bg img{
+    width: 33%;
+    height: 95%;
+    max-height: 65px;
+    padding: 0px;
+    margin: 0px 1px;
+}
+
+.bg{
+    width: 70%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+}
+
+.header_stngs{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.header_aligment{
+    display: inline;
+}
+
+.header_aligment:hover{
+    text-decoration: underline;
+    cursor:default;
+}
+
+.background_img:hover{
+    border: 1px solid blue;
+}
+
+.header_text_color_container{
+    width: 100%;
+    height:30%;
+}
+
+.header_text_color{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+.header_text_color:hover{
+    border: 2px solid black
+}
+
+#green{
+    background-color: green;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#red{
+    background-color: red;
+}
+
+.header_text_font_style_container{
+    width: 100%;
+}
+
+.header_font_style:hover{
+    text-decoration: underline;
+}
+
+#Tahoma{
+    font-family: Tahoma;
+}
+
+#Impact{
+    font-family: Impact;
+}
+
+#Georgia{
+    font-family: Georgia;
+}
+
+#Courier{
+    font-family: Courier;
+}
+
+#text_font_size{
+    width: 30%;
 }
