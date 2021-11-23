@@ -1,39 +1,82 @@
-let header_aligment_stngs = [...document.getElementsByClassName("header_aligment")]
-let background_imgs = [...document.getElementsByClassName("background_img")]
-let header_font_style = [...document.getElementsByClassName("header_font_style")]
-let header_font_color = [...document.getElementsByClassName("header_text_color")]
-let text_font_size = document.getElementById("text_font_size")
+function initSelect(){
+    let select = document.getElementById("text_font_size")
 
+    select.addEventListener("change",(event)=>{
+        [...document.getElementsByClassName("par")].forEach(element=>{
+            element.style.fontSize=select.value;
+        })
+    })
 
-
-for(let i = 1; i !=41; i++){
-    let option = document.createElement("option")
-    option.text = `${i}пт`
-    option.value = `${i}pt`
-    text_font_size.add(option)
+    for(let i = 1; i !=41; i++){
+        let option = document.createElement("option")
+        if(i == 15)
+            option.setAttribute("selected","selected")
+        option.text = `${i}пт`
+        option.value = `${i}pt`
+        select.add(option)
+    }
 }
 
-header_font_color.forEach(element=>{
-    element.addEventListener("click",(event)=>{
-        document.getElementById("headertext").style.color = element.getAttribute("id")
-    })
-})
+initSelect();
 
-header_font_style.forEach(element=>{
+[...document.getElementsByClassName("header_text_color")].forEach(element=>{
     element.addEventListener("click",(event)=>{
-        document.getElementById("headertext").style.fontFamily = element.getAttribute("ID")
+        document.getElementById("headertext").style.color = element.style.background.style.color;
     })
-})
+});
 
-background_imgs.forEach(element => {
+[...document.getElementsByClassName("header_font_style")].forEach(element => {
+    element.addEventListener("click",(event)=>{
+        console.log(element.fontFamily)
+        document.getElementById("headertext").style.fontFamily = element.getAttribute("id")
+    })
+});
+
+([...document.getElementsByClassName("background_img")]).forEach(element => {
     element.addEventListener("click",(event)=>{
         document.body.style.background = `url(${element.getAttribute("src")})`
     })
 });
 
-header_aligment_stngs.forEach(element => { 
+([...document.getElementsByClassName("header_aligment")]).forEach(element => { 
     element.addEventListener("click",(event)=>{
         document.getElementById("headertext").style.textAlign = element.getAttribute("ID")
     })
-})
+});
+
+document.getElementById("change_content").addEventListener("click",(event)=>{
+    let value = prompt("Ввидите заголовок")
+    if(value !== ""){
+        document.getElementById("headertext").innerText = value
+    }
+});
+
+document.getElementById("close_stngs").addEventListener("click",(event)=>{
+    document.getElementById("settings_container").style.display = "none"
+});
+
+[...document.getElementsByClassName("pic_aligement")].forEach(element=>{
+    element.addEventListener("click",(event)=>{
+        document.getElementById("pic").style.float = element.getAttribute("ID")
+    })
+});
+
+function pic_widthInit(){
+    let pic_width =document.getElementById("pic_width")
+    
+    pic_width.addEventListener("keypress",(event)=>{
+        if(event.key =="." && pic_width.value.length ==0) event.returnValue = false;
+        if(pic_width.value.includes(".")&& event.key == ".") event.returnValue = false;
+        if(isNaN(event.key) && event.key  != ".") event.returnValue = false;
+    });
+
+    pic_width.addEventListener("keyup",event=>{
+        let width = parseFloat(pic_width.value)
+        document.getElementById("pic").style.width = `${width}px`;
+    });
+
+    pic_width.value = "500"
+}
+
+pic_widthInit();
 
