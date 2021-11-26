@@ -1,0 +1,36 @@
+.question_header{
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    line-height: 15px;
+}
+body{
+    background-color:rgb(158, 90, 0);
+    color: white;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border-radius: 20px;
+    margin: 15px;
+}
+
+legend{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    margin: 50px auto ;
+    width: 40%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: burlywood;
+}
+
+label{
+    display: block;
+}
