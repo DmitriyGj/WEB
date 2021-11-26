@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body onload="">
+        <form action="">
+            <fieldset class = "question radios" >
+                <legend>
+                    1 вопрос
+                </legend>
+                <p class="question_header">Отнесение объекта к определенному классу по набору его входных данных – это задача:</p>
+                <div class ="answers_block">
+                        <Label for="1answerRadio" value ="0" >
+                            <input  id="1answerRadio" name="que1" type="radio">
+                            кластеризации данных</Label>
+                        <Label class="answer" for="2answerRadio" value ="0" >
+                            <input id = "2answerRadio" name="que1" type="radio">
+                            предсказания </Label>
+                        <Label for="3answerRadio" value ="0" >
+                            <input id ="3answerRadio" name="que1" type="radio">
+                            оптимизации</Label>
+                        <Label for ="4answerRadio" value ="+1">
+                            <input id ="4answerRadio" name="que1" type="radio">
+                            распознавания образов</Label>
+                </div>
+            </fieldset>
+            <fieldset class = "question checkboxes" >
+                <legend>
+                    2 вопрос
+                </legend>
+                <p class="question_header">Функция активации в нейронной сети:</p>
+                <div  class ="answers_block">
+                        
+                        <Label for="1answercheckbox" >
+                            <input id ="1answercheckbox" value="+2" name ="answer" type="checkbox">
+                            может зависеть и от входов нейрона, и от их весов</Label>
+                        <Label for="2answercheckbox" > 
+                            <input id="2answercheckbox" value="+1" name ="answer" type="checkbox">
+                            всегда зависит от входных сигналов нейрона</Label>
+                        <Label for="3answercheckbox" > 
+                            <input id = "3answercheckbox" value="+1" name ="answer" type="checkbox">
+                            всегда зависит от весов входных входных сигналов нейрона</Label>
+                        <Label for ="4answercheckbox">
+                            <input id= "4answercheckbox"  value="-3" name ="answer" type="checkbox">
+                            зависит только от состояния и времени</Label>
+                </div>
+            </fieldset>
+            <fieldset class = "question textbox" >
+                <legend>
+                    3 вопрос
+                </legend>
+                <p class="question_header">Дано 200 документов. Определите логарифмическую обратную документную частоту IDF для слова, которое было найдено в 50 документах.</p>
+                    <input id="answertext"   class ="answers_block" type="text">
+            </fieldset>
+            <fieldset class = "question" >
+                <legend>
+                    4 вопрос
+                </legend>
+                <p class="question_header">Одним из определяющих признаков интеллектуальности системы является:</p>
+                <div  class ="answers_block selectblock">
+                    <select id="answerselect" name="answer" >
+                        <option>Способность изменять поведение в зависимости от состояний</option>
+                        <option>Высокая вычислительная сложность решаемых задач</option>
+                        <option>Использование базы данных для хранения описаний состояния системы</option>
+                        <option>Применение формальных языков</option>
+                    </select>
+                </div>
+            </fieldset>
+            <button id="submit_btn">Отправить</button>
+        </form>
+        <script src = "script.js">
+        </script>
+    </body>
+</html>
