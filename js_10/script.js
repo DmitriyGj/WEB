@@ -63,19 +63,26 @@ document.getElementById("close_stngs").addEventListener("click",(event)=>{
 
 function pic_widthInit(){
     let pic_width =document.getElementById("pic_width")
-    
     pic_width.addEventListener("keypress",(event)=>{
-        if(event.key =="." && pic_width.value.length ==0) event.returnValue = false;
-        if(pic_width.value.includes(".")&& event.key == ".") event.returnValue = false;
-        if(isNaN(event.key) && event.key  != ".") event.returnValue = false;
+        switch (event.key){
+            case ".":{
+                if(pic_width.value.length ==0 || pic_width.value.includes(".")) {
+                    event.returnValue = false;
+                }
+            }
+            case "Enter":{
+                document.getElementById("pic").style.width =`${pic_width.value}px`
+            }
+            default:{
+                if(isNaN(event.key)){
+                    event.returnValue = false;
+                }
+            }
+        }
+        if(event.key ==="Enter" ) 
     });
 
-    pic_width.addEventListener("keyup",event=>{
-        let width = parseFloat(pic_width.value)
-        document.getElementById("pic").style.width = `${width}px`;
-    });
-
-    pic_width.value = "500"
+    pic_width.value = "400"
 }
 
 pic_widthInit();
