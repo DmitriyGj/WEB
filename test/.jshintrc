@@ -1,8 +1,8 @@
 {
     "camelcase": true,
-    "indent":2,
+    "ident":2,
     "undef": true,
-    "quotmark": false,
+    "quotmark": true,
     "maxlen":120,
     "trailing": true,
     "curly": true,
