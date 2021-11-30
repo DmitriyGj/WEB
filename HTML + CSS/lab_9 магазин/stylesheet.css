@@ -1,0 +1,231 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap);
+.product-page div a {
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+button {
+    background: linear-gradient(to bottom, #f7941e, #f25e2e);
+    border-radius: 3px;
+    border: none;
+    vertical-align: middle;
+}
+
+button p {
+    color: white;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Open Sans';
+}
+
+.header_menu {
+    background-color: white;
+    margin: 0px;
+    position: fixed;
+    text-align: center;
+    min-width: 2000px;
+    height: 40px;
+    padding: 14px 35px;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.search_block {
+    margin: 0px 20px 0px 20px;
+    display: inline-block;
+    float: left;
+}
+
+.search_block input {
+    float: left;
+    height: 40px;
+    width: 500px;
+    padding-left: 20px;
+}
+
+.search_block button {
+    margin: 0px;
+    margin-left: 10px;
+    display: inline-block;
+    background-color: orange;
+    float: left;
+    border: 0px;
+    height: 40px;
+    width: 100px;
+}
+
+.catalog-block {
+    display: inline-block;
+    float: left;
+}
+
+.catalog-block button {
+    background-color: orange;
+    vertical-align: middle;
+    width: 200px;
+    height: 40px;
+}
+
+.catalog-block button p {
+    display: inline-block;
+    margin: 0px;
+}
+
+.catalog-block button p::after {
+    content: url(header_catalogue-icon.png);
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.buttons {
+    display: inline-block;
+    float: left;
+    width: 320px;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.buttons li a {
+    display: inline-block;
+    color: gray;
+    text-decoration: none;
+    margin-left: 15px;
+    vertical-align: middle;
+    height: 40px;
+}
+
+.buttons li {
+    display: inline-block;
+    margin-left: 30px;
+    height: 40px;
+    float: left;
+}
+
+.products-page_title {
+    z-index: 0;
+    margin-left: 40px;
+    position: absolute;
+    top: 70px;
+    width: 800px;
+}
+
+h1 {
+    display: block;
+    margin: 0px;
+}
+
+.breadcrumb {
+    display: block;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.breadcrumb li {
+    margin-left: 24px;
+    display: inline-block;
+}
+
+.breadcrumb li a {
+    margin: 0px;
+    color: gray;
+}
+
+.breadcrumb li:first-child {
+    margin-left: 0px;
+}
+
+.product-page {
+    padding: 15px;
+    border: 1px solid gray;
+    display: block;
+    font-size: 12px;
+}
+
+.product-page button {
+    margin-bottom: 20px;
+    padding: 10px 40px;
+    border: 1px solid gray;
+    display: block;
+    color: white;
+}
+
+.product-page img {
+    vertical-align: bottom;
+    display: inline-block;
+    margin: 0px;
+    width: 190px;
+    float: left;
+}
+
+.product-page div {
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.product-page img {
+    text-align: center;
+    display: block;
+}
+
+.offer {
+    display: inline-block;
+    background-color: greenyellow;
+    color: green;
+    float: left;
+    clear: both;
+    font-size: 9px;
+    margin-top: -10px;
+    margin-left: 35px;
+    text-align: center;
+    width: 120px;
+    padding: 2px 2px;
+}
+
+.product-page div:last-child {
+    padding: 1px;
+    vertical-align: middle;
+    margin-left: 150px;
+}
+
+.product-page div:last-child * {
+    margin-bottom: 10px;
+}
+
+.product-page div img {
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+}
+
+.product-page div p {
+    display: block;
+    margin: 0px;
+}
+
+.name {
+    display: block;
+    text-decoration: underline solid orange;
+    margin-bottom: 5px;
+}
+
+.product-list {
+    margin-top: 20px;
+}
+
+#ei {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+#bold {
+    font-weight: bold;
+}
