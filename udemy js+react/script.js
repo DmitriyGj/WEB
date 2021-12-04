@@ -52,7 +52,7 @@ const personalMovieDB = {
             console.log('Вы киноман');
         }
         else{
-            console.log('Произошла ошибка')
+            console.log('Произошла ошибка');
         }
     },
     toggleVisibleMyDB:()=>{
