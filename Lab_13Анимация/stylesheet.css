@@ -1,0 +1,69 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+.main {
+    display: inline-block;
+    width: 900px;
+    height: 650px;
+    padding: 20px;
+}
+
+.text_block {
+    width: 900px;
+    position: absolute;
+    text-align: center;
+    z-index: 0;
+}
+
+.mirror {
+    position: relative;
+    z-index: 1;
+    font-size: 27px;
+}
+
+.mirror p {
+    margin-top:30px;
+    text-align:center;
+}
+
+
+body {
+    text-align: center;
+    background: center/100% 100% url(BG-ILLU2.JPG) no-repeat;
+    background-size: cover;
+    color: darkslategray;
+}
+
+.card {
+    display: inline-block;
+    width: 220px;
+    height: 300px;
+    margin: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    float: left;
+}
+
+.rot:hover{
+    animation: rot 3s  linear;
+}
+
+@keyframes rot {
+    from {transform:rotate(0deg)}
+    to{transform:rotate(360deg)}
+ }
+
+.text_block .card {
+    opacity: 60%;
+}
+
+.text_block .card p {
+    line-height: 25px;
+    font-size: 18px;
+}
