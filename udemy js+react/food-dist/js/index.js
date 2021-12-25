@@ -68,12 +68,17 @@ window.addEventListener('DOMContentLoaded',()=>{
 
         function UpdateClock(){
             const t = getRemaining(endTime);
+            console.log(t);
             days.innerHTML = getZero(t.days);
             hours.innerHTML = getZero(t.hours);
             minutes.innerHTML = getZero(t.minutes);
             seconds.innerHTML = getZero(t.seconds);
-            if(t.total >= endTime){
+            if(t.total < 0){
                 clearInterval(timeInterval);
+                days.innerHTML = getZero(0);
+                hours.innerHTML = getZero(0);
+                minutes.innerHTML = getZero(0);
+                seconds.innerHTML = getZero(0);
             }
         }
     }
