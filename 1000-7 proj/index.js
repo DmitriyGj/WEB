@@ -5,6 +5,8 @@ window.addEventListener('DOMContentLoaded', () => {
         canvas = document.querySelector('.canvas'),
         audio = new Audio('smthng/1000-7.mp3');
     
+    document.body.style.overflow = 'hidden';
+
     btn.addEventListener('click',function() {
         this.disabled = true;
         audio.play();
